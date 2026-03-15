@@ -9,7 +9,7 @@ export function Hero() {
     });
 
     return(
-        <hero className='hero' id='home'>
+        <section className='hero' id='home'>
             <div className='hero__content'>
                 <div className='hero__content_description'>
                     <h1 className='hero__description_title'>
@@ -29,7 +29,7 @@ export function Hero() {
                     </p>
                 </div>
             </div>
-        </hero>
+        </section>
     )
 
 }
