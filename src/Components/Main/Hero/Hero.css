@@ -15,7 +15,7 @@
     align-self: center;
 }
 .hero__description_text {
-    align-self: center;
+    text-align: center;
 }
 .hero__content_photos {
     padding-top: 1rem;

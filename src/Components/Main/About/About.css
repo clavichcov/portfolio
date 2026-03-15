@@ -5,3 +5,18 @@
     padding: 1rem;
     background-color: #fff;
 }
+.about__image {
+    width: clamp(100px, 40vw, 500px);
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+}
+.about__description {
+
+}
+.about_description_title {
+
+}
+.about__description_text {
+
+}
