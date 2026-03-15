@@ -1,6 +1,4 @@
-.header {
-  width: auto;
-}
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -141,6 +139,9 @@
     }
     
     .header__content_buttons button:hover {
+        color: #2563eb;
+    }
+    .header__content_buttons a:hover {
         color: #2563eb;
     }
     .language__content {
