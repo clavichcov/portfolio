@@ -1,5 +1,5 @@
 import './Hero.css';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { IMAGES } from '../../../Utils/Constants.js'
 
 export function Hero() {
@@ -9,7 +9,7 @@ export function Hero() {
     });
 
     return(
-        <>
+        <hero className='hero' id='home'>
             <div className='hero__content'>
                 <div className='hero__content_description'>
                     <h1 className='hero__description_title'>
@@ -29,7 +29,7 @@ export function Hero() {
                     </p>
                 </div>
             </div>
-        </>
+        </hero>
     )
 
 }

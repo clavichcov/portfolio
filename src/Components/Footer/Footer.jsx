@@ -5,7 +5,7 @@ export function Footer() {
 
 
     return(
-        <>
+        <footer className='footer' id='contact'>
             <div className='footer__content'>
                 <div className='footer__content_contact'>
                     <h3 className='footer__contact_title'>
@@ -39,7 +39,7 @@ export function Footer() {
                     </a>
                 </div>
             </div>
-        </>
+        </footer>
     )
 
 }

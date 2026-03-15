@@ -3,7 +3,7 @@ import {IMAGES} from '../../../Utils/Constants.js'
 export function Services() {
 
     return (
-        <>
+        <section className='services' id='services'>
             <div className='services__contain'>
                 <div className='services__contain_service'>
                     <img className='service__image' src={IMAGES.web} />
@@ -24,6 +24,6 @@ export function Services() {
                     </p>
                 </div>
             </div>
-        </>
+        </section>
     )
 }

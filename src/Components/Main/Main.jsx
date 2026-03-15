@@ -9,14 +9,14 @@ export function Main() {
 
 
     return(
-        <>
-            <Hero className='hero'/>
-            <Services className='services' />
-            <Skills className='skills' />
-            <Experience className='experience' />
-            <About className='about' />
+        <main className='main'>
+            <Hero />
+            <Services />
+            <Skills />
+            <Experience />
+            <About />
             
-        </>
+        </main>
     )
 
 }

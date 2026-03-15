@@ -4,7 +4,7 @@ import './About.css'
 export function About() {
 
     return(
-        <>
+        <section className='about' id='about'>
             <div className='about__content'>
                 <img className='about__image' src={IMAGES.myphoto}/>
                 <div className='about__description'>
@@ -16,6 +16,6 @@ export function About() {
                     </p>
                 </div>
             </div>
-        </>
+        </section>
     )
 }

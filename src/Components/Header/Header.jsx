@@ -28,7 +28,7 @@ export function Header() {
         return () => document.removeEventListener('click', handleClickOutside);
     }, []);
     return(
-        <>
+        <header className='header'>
             <div className='header__content' >
                 <h2 className='header__content--logo'>Alexander Medina Artemiev</h2>
                 <button className={`header__menu ${openMenu ? 'open' : ''}`} 
@@ -39,11 +39,11 @@ export function Header() {
                     <span></span>
                 </button>
                 <div className={`header__content_buttons ${openMenu ? 'show' : ''}`}>
-                    <button >Inicio</button>
-                    <button >Servicios</button>
-                    <button >Habilidades</button>
-                    <button >Sobre mí</button>
-                    <button >Contacto</button>
+                    <a href='#home'>Inicio</a>
+                    <a href='#services'>Servicios</a>
+                    <a href='#skills'>Habilidades</a>
+                    <a href='#about'>Sobre mí</a>
+                    <a href='#contact'>Contacto</a>
                     <div className='language__content'>
                         <button 
                             className='language__content_button'
@@ -59,7 +59,7 @@ export function Header() {
                     
                 </div>
             </div>
-        </>
+        </header>
     )
 
 }
