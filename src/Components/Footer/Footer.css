@@ -2,8 +2,9 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    padding: 1rem;
+    padding: clamp(1rem, 10vw, 5rem);
     justify-content: space-between;
+    gap: clamp(1rem, 3vw, 2rem);
 }
 .footer__content_contact {
 
@@ -18,14 +19,13 @@
     display: grid;
     align-self: center;
     grid-template-columns: repeat(2, minmax(20px, 1fr));
-    gap: 10px;
-
+    gap: clamp(1rem, 3vw, 2rem);
 }
 .footer__social_link{
-    width: 30px;
-    height: 30px;
+    width: clamp(30px, 10vw, 50px);
+    height: clamp(30px, 10vw, 50px);
 }
 .footer__social_icon {
-    width: 30px;
-    height: 30px;
+    width: clamp(30px, 10vw, 50px);
+    height: clamp(30px, 10vw, 50px);
 }

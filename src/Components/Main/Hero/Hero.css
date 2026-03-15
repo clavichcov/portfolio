@@ -4,7 +4,7 @@
     height: auto;
     background-color: #c9e2f9;
     flex-direction: column;
-    padding: 1rem;
+    padding: clamp(1rem, 10vw, 5rem);
 }
 .hero__content_description {
     display: flex;
@@ -13,6 +13,7 @@
 }
 .hero__description_title{
     align-self: center;
+    text-align: center;
 }
 .hero__description_text {
     text-align: center;
