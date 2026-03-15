@@ -77,6 +77,35 @@
     border-bottom: none;
 }
 
+.language__content {
+    position: relative;
+}
+.language__content_button {
+    width: 100%;
+    text-align: left;
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.language__content_button::after{
+    content: '▼';
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    opacity: 0.7;
+}
+.language__submenu{
+    display: none;
+    background: #f5f5f5;
+    padding: 0.5rem 0;
+}
+.language__submenu.show{
+    display: block;
+}
+
 @media (min-width: 680px) {
     .header__menu {
         display: none;

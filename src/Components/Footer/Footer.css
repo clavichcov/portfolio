@@ -19,13 +19,13 @@
     display: grid;
     align-self: center;
     grid-template-columns: repeat(2, minmax(20px, 1fr));
-    gap: clamp(1rem, 3vw, 2rem);
+    gap: clamp(1rem, 5vw, 2rem);
 }
 .footer__social_link{
-    width: clamp(30px, 10vw, 50px);
-    height: clamp(30px, 10vw, 50px);
+    width: clamp(30px, 5vw, 50px);
+    height: clamp(30px, 5vw, 50px);
 }
 .footer__social_icon {
-    width: clamp(30px, 10vw, 50px);
-    height: clamp(30px, 10vw, 50px);
+    width: clamp(30px, 5vw, 50px);
+    height: clamp(30px, 5vw, 50px);
 }
