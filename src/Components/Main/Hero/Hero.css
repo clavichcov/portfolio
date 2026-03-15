@@ -1,0 +1,28 @@
+.hero__content {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #c9e2f9;
+    flex-direction: column;
+    padding: 1rem;
+}
+.hero__content_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__description_title{
+    align-self: center;
+}
+.hero__description_text {
+    align-self: center;
+}
+.hero__content_photos {
+    padding-top: 1rem;
+}
+.hero__photos_image {
+
+}
+.hero__photos_description{
+
+}
