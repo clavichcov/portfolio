@@ -1,6 +1,31 @@
 .footer__content {
     display: flex;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
     padding: 1rem;
+    justify-content: space-between;
+}
+.footer__content_contact {
+
+}
+.footer__contact_title {
+
+}
+.footer__contact_text {
+
+}
+.footer__content_social {
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(2, minmax(20px, 1fr));
+    gap: 10px;
+
+}
+.footer__social_link{
+    width: 20px;
+    height: 20px;
+}
+.footer__social_icon {
+    width: 20px;
+    height: 20px;
 }
