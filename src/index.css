@@ -1,4 +1,4 @@
-@import "tailwindcss";
+
 @import url("../src/Vendor/normalize.css");
 @import url("../src/vendor/fonts.css");
 .html, body {
