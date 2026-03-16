@@ -1,13 +1,18 @@
 .services__contain{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     padding: clamp(1rem, 10vw, 5rem);
+    gap: clamp(1rem, 2vw, 1.5rem);
 }
 .services__contain_service {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .services__image {
-    width: 100%;
+    height: clamp(150px, 10vh, 500px);
+    object-fit: cover;
+    border-radius: 25px;
 }
 .services__text {
 
