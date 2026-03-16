@@ -1,6 +1,6 @@
 
 @import './Vendor/normalize.css');
-@import './vendor/fonts.css';
+@import './Vendor/fonts.css';
 .html, body {
     background-color: #9b9a9d;
     min-width: 320px;
