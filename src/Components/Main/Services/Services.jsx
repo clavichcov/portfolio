@@ -6,20 +6,20 @@ export function Services() {
         <section className='services' id='services'>
             <div className='services__contain'>
                 <div className='services__contain_service'>
-                    <img className='service__image' src={IMAGES.web} />
-                    <p className='service__text'>
+                    <img className='services__image' src={IMAGES.web} />
+                    <p className='services__text'>
                         Servicios Electricos
                     </p>
                 </div>
                 <div className='services__contain_service'>
-                    <img className='service__image' src={IMAGES.web} />
-                    <p className='service__text'>
+                    <img className='services__image' src={IMAGES.web} />
+                    <p className='services__text'>
                         Servicios TI
                     </p>
                 </div>
                 <div className='services__contain_service'>
-                    <img className='service__image' src={IMAGES.web} />
-                    <p className='service__text'>
+                    <img className='services__image' src={IMAGES.web} />
+                    <p className='services__text'>
                         Servicios Desarrollo Web
                     </p>
                 </div>

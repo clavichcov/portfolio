@@ -1,15 +1,14 @@
 .services__contain{
     display: flex;
-    width: 100%;
     flex-direction: column;
     padding: clamp(1rem, 10vw, 5rem);
 }
 .services__contain_service {
 
 }
-.service__image {
-
+.services__image {
+    width: 100%;
 }
-.service__text {
+.services__text {
 
 }
