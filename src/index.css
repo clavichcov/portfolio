@@ -3,6 +3,7 @@
 @import './Vendor/fonts.css';
 .html, body {
     background-color: #9b9a9d;
+    overflow-x: hidden;
     min-width: 320px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
