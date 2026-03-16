@@ -1,5 +1,5 @@
 import './Hero.css';
-import { useEffect, useState,useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { IMAGES } from '../../../Utils/Constants.js'
 
 export function Hero() {

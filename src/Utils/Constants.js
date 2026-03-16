@@ -3,7 +3,7 @@ import linkedin from '../Images/Icon/linkedin.png'
 import github from '../Images/Icon/github.png'
 import discord from '../Images/Icon/discord.png'
 import msteams from '../Images/Icon/skype.png'
-import myphoto from '../Images/foto.jpeg'
+import myphoto from '../Images/foto.jpg'
 export const IMAGES = {
     web,
     linkedin,
