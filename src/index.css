@@ -1,6 +1,6 @@
 
-@import url("../src/Vendor/normalize.css");
-@import url("../src/vendor/fonts.css");
+@import url("./Vendor/normalize.css");
+@import url("./vendor/fonts.css");
 .html, body {
     background-color: #9b9a9d;
     min-width: 320px;
