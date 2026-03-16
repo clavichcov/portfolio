@@ -1,5 +1,5 @@
 
-@import './Vendor/normalize.css');
+@import './Vendor/normalize.css';
 @import './Vendor/fonts.css';
 .html, body {
     background-color: #9b9a9d;
