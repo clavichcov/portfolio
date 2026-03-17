@@ -8,7 +8,6 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     position: relative;
 }
-
 .header__content--logo {
     font-size: 1.2rem;
     margin: 0;
@@ -16,7 +15,6 @@
     font-size: clamp(0.8rem, 2vw, 1.5rem);
     font-weight: 700;
 }
-
 .header__menu {
     display: flex;
     flex-direction: column;
@@ -29,7 +27,6 @@
     padding: 0;
     z-index: 10;
 }
-
 .header__menu span {
     width: 30px;
     height: 3px;
@@ -37,19 +34,15 @@
     border-radius: 3px;
     transition: all 0.3s ease;
 }
-
 .header__menu.open span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
-
 .header__menu.open span:nth-child(2) {
     opacity: 0;
 }
-
 .header__menu.open span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
 }
-
 .header__content_buttons {
     display: none;
     position: absolute;
@@ -62,11 +55,9 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     z-index: 100;
 }
-
 .header__content_buttons.show {
     display: flex;
 }
-
 .header__content_buttons button {
     padding: 1rem;
     width: 100%;

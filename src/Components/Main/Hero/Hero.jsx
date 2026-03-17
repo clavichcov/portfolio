@@ -8,11 +8,11 @@ export function Hero() {
     const [isTransitioning, setIsTransitioning] = useState(false);
     const originalSlides = [
         {
-            image: IMAGES.web,
+            image: IMAGES.electric,
             description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quisquam, voluptatum ullam fuga rerum vero praesentium labore cum ab magnam voluptates ad quae hic. Eligendi explicabo et ducimus possimus libero.'        
         },
         {
-            image: IMAGES.web,
+            image: IMAGES.ti,
             description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quisquam, voluptatum ullam fuga rerum vero praesentium labore cum ab magnam voluptates ad quae hic. Eligendi explicabo et ducimus possimus libero.'        
         },
         {

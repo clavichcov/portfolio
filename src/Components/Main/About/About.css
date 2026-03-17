@@ -5,17 +5,27 @@
     background-color: #c9e2f9;
 }
 .about__image {
-    width: clamp(100px, 40vw, 500px);
+    width: clamp(100px, 30vw, 400px);
     border-radius: 50%;
     object-fit: cover;
     align-self: center;
 }
 .about__description {
-
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(1rem, 3vw, 1.5rem);
 }
 .about_description_title {
-
+    
 }
 .about__description_text {
 
+}
+
+@media (min-width: 680px) {
+    .about__description {
+    display: flex;
+    flex-direction: row;
+    gap: clamp(1rem, 2vw, 1.5rem);
+}
 }

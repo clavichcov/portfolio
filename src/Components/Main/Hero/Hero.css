@@ -33,8 +33,6 @@
     padding: 1rem;
     box-sizing: border-box;
 }
-
-
 .hero__slides_image {
     width: 100%;
     height: auto;
@@ -42,21 +40,17 @@
     object-fit: cover;
     border-radius: 8px;
 }
-
 .hero__slides_description {
     margin-top: 1rem;
     text-align: center;
     color: #666;
 }
-
-/* Controles del slider */
 .hero__slider_controls {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
 }
-
 .hero__slider_control {
     width: 12px;
     height: 12px;
@@ -66,12 +60,9 @@
     cursor: pointer;
     padding: 0;
 }
-
 .hero__slider_control.active {
     background: #2563eb;
 }
-
-/* Flechas de navegación */
 .hero__slider_arrow {
     position: absolute;
     top: 50%;
@@ -90,7 +81,6 @@
 .hero__slider_arrow:hover {
     background: rgba(0,0,0,0.8);
 }
-
 .hero__slider_arrow.prev {
     left: 10px;
 }
@@ -98,8 +88,6 @@
 .hero__slider_arrow.next {
     right: 10px;
 }
-
-/* Clase para transición desactivada (útil para el salto) */
 .hero__slides.no-transition {
     transition: none;
 }
