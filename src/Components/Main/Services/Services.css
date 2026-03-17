@@ -1,19 +1,33 @@
-.services__contain{
+.services {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(1rem, 10vw, 5rem);
+}
+.services__title {
+    margin: 0;
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 900;
+    font-size: clamp(1.25rem, 5vw, 3.13rem);
+}
+.services__container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    padding: clamp(1rem, 10vw, 5rem);
     gap: clamp(1rem, 2vw, 1.5rem);
+    padding-top: 3rem;
 }
-.services__contain_service {
+.container__service {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow: hidden;
 }
-.services__image {
+.container__service_image {
     height: clamp(150px, 10vh, 500px);
     object-fit: cover;
-    border-radius: 25px;
+    
 }
-.services__text {
-
+.container__service_text {
+    align-self: center;
 }

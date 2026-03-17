@@ -4,28 +4,41 @@
     padding: clamp(1rem, 10vw, 5rem);
     background-color: #c9e2f9;
 }
+.about__content_title {
+    margin: 0;
+    font-size: clamp(1.25rem, 5vw, 3.13rem);
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 900;
+}
+.about__content_description {
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(1rem, 3vw, 1.5rem);
+}
 .about__image {
     width: clamp(100px, 30vw, 400px);
     border-radius: 50%;
     object-fit: cover;
     align-self: center;
 }
-.about__description {
-    display: flex;
-    flex-direction: column;
-    padding-top: clamp(1rem, 3vw, 1.5rem);
-}
-.about_description_title {
-    
-}
 .about__description_text {
-
+    align-self: center;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    text-align: justify;
+    padding-top: 1rem;
+    margin: 0;
+}
+.about__description_line{
+    padding-top: 1rem;
 }
 
 @media (min-width: 680px) {
-    .about__description {
+    .about__content_description {
     display: flex;
     flex-direction: row;
-    gap: clamp(1rem, 2vw, 1.5rem);
-}
+    gap: clamp(1rem, 5vw, 3rem);
+    }
+    .about__description_text {
+        padding-left: clamp(1rem, 1.5vw, 1.5rem);
+    }
 }

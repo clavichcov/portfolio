@@ -69,6 +69,8 @@
 }
 .header__content_buttons a {
     font-size: 1rem;
+    text-decoration: none;
+    color: #000;
 }
 
 .header__content_buttons button:last-child {

@@ -38,40 +38,43 @@ export function Services() {
 
     return (
         <section className='services' id='services'>
-            <div className='services__contain'>
-                <div className='services__contain_service'>
+            <h2 className='services__title'>
+                        Servicios
+            </h2>
+            <div className='services__container'>
+                <div className='container__service'>
                     {electricImages.length > 0 && (
                         <img 
-                            className='services__image' 
+                            className='container__service_image' 
                             src={electricImages[electricIndex]} 
                             alt="Servicios Eléctricos"
                         />
                     )}
-                    <p className='services__text'>
+                    <p className='container__service_text'>
                         Servicios Electricos
                     </p>
                 </div>
-                <div className='services__contain_service'>
+                <div className='container__service'>
                     {itSupportImages.length > 0 && (
                         <img 
-                            className='services__image' 
+                            className='container__service_image' 
                             src={itSupportImages[itSupportIndex]} 
                             alt="Servicios TI"
                         />
                     )}
-                    <p className='services__text'>
+                    <p className='container__service_text'>
                         Servicios TI
                     </p>
                 </div>
-                <div className='services__contain_service'>
+                <div className='container__service'>
                     {webDeveloperImages.length > 0 && (
                         <img 
-                            className='services__image' 
+                            className='container__service_image' 
                             src={webDeveloperImages[webDeveloperIndex]} 
                             alt="Servicios TI"
                         />
                     )}
-                    <p className='services__text'>
+                    <p className='container__service_text'>
                         Servicios Desarrollo Web
                     </p>
                 </div>

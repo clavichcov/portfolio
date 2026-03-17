@@ -25,17 +25,17 @@ export function Footer() {
                     </p>
                 </div>
                 <div className='footer__content_social'>
-                    <a className='footer__social_link' href={LINKS.linkedin}>
+                    <a className='footer__social_link' href={LINKS.linkedin} target="_blank">
                         <img className='footer__social_icon' src={IMAGES.linkedin} alt="Linkedin" />
                     </a>
-                    <a className='footer__social_link' href={LINKS.github}>
+                    <a className='footer__social_link' href={LINKS.github} target="_blank">
                         <img className='footer__social_icon' src={IMAGES.github} alt="Github" />
                     </a>
-                    <a className='footer__social_link' href={LINKS.discord}>
+                    <a className='footer__social_link' href={LINKS.discord} target="_blank">
                         <img className='footer__social_icon' src={IMAGES.discord} alt="Discord" />
                     </a>
-                    <a className='footer__social_link' href={LINKS.msteams}>
-                        <img className='footer__social_icon' src={IMAGES.msteams} alt="MsTeams" />
+                    <a className='footer__social_link' href={LINKS.whatsapp} target="_blank">
+                        <img className='footer__social_icon' src={IMAGES.whatsapp} alt="WhatsApp" />
                     </a>
                 </div>
             </div>
