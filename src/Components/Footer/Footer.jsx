@@ -1,27 +1,25 @@
 import './Footer.css';
+import { useLanguage } from '../Contexts/LanguageContext';
 import {IMAGES, LINKS} from '../../Utils/Constants.js'
 
 export function Footer() {
-
+    const { t } = useLanguage();
 
     return(
         <footer className='footer' id='contact'>
             <div className='footer__content'>
                 <div className='footer__content_contact'>
                     <h3 className='footer__contact_title'>
-                        Contacto:
+                        {t('footer.contact')}
                     </h3>
                     <p className='footer__contact_text'>
-                        Email:
+                        {t('footer.email')} alexanderma1983@gmail.com
                     </p>
                     <p className='footer__contact_text'>
-                        alexanderma1983@gmail.com
+                        {t('footer.whatsapp')} +57 320 963 7937                        
                     </p>
                     <p className='footer__contact_text'>
-                        WhatsApp: +57 320 963 7937                        
-                    </p>
-                    <p className='footer__contact_text'>
-                        Llamadas: +57 322 953 4786
+                        {t('footer.phone')} +57 322 953 4786
                     </p>
                 </div>
                 <div className='footer__content_social'>

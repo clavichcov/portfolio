@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import './Services.css'
-import {IMAGES, SERVICE_IMAGES} 
-    from '../../../Utils/Constants.js'
-export function Services() {
+import {IMAGES, SERVICE_IMAGES} from '../../../Utils/Constants.js'
+import { useLanguage } from '../../Contexts/LanguageContext.jsx';
 
+
+export function Services() {
+    const { t } = useLanguage();
     const [electricImages, setElectricImages] = useState([]);
     const [itSupportImages, setItSupportImages] = useState([]);
     const [webDeveloperImages, setWebDeveloperImages] = useState([]);
@@ -39,7 +41,7 @@ export function Services() {
     return (
         <section className='services' id='services'>
             <h2 className='services__title'>
-                        Servicios
+                        {t('services.title')}
             </h2>
             <div className='services__container'>
                 <div className='container__service'>
@@ -47,11 +49,11 @@ export function Services() {
                         <img 
                             className='container__service_image' 
                             src={electricImages[electricIndex]} 
-                            alt="Servicios Eléctricos"
+                            alt={t('services.electric')}
                         />
                     )}
                     <p className='container__service_text'>
-                        Servicios Electricos
+                        {t('services.electric')}
                     </p>
                 </div>
                 <div className='container__service'>
@@ -59,11 +61,11 @@ export function Services() {
                         <img 
                             className='container__service_image' 
                             src={itSupportImages[itSupportIndex]} 
-                            alt="Servicios TI"
+                            alt={t('services.it')}
                         />
                     )}
                     <p className='container__service_text'>
-                        Servicios TI
+                        {t('services.it')}
                     </p>
                 </div>
                 <div className='container__service'>
@@ -71,11 +73,11 @@ export function Services() {
                         <img 
                             className='container__service_image' 
                             src={webDeveloperImages[webDeveloperIndex]} 
-                            alt="Servicios TI"
+                            alt={t('services.web')}
                         />
                     )}
                     <p className='container__service_text'>
-                        Servicios Desarrollo Web
+                        {t('services.web')}
                     </p>
                 </div>
             </div>

@@ -2,7 +2,8 @@
 @import './Vendor/normalize.css';
 @import './Vendor/fonts.css';
 .html, body {
-    background-color: #9b9a9d;
+    background-color: #0a0f1c;
+    color: #e2e8f0;
     overflow-x: hidden;
     min-width: 320px;
     font-family: 'Roboto', sans-serif;

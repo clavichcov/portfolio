@@ -9,6 +9,7 @@
     position: relative;
 }
 .header__content--logo {
+    color: #111827;
     font-size: 1.2rem;
     margin: 0;
     font-family: 'Roboto slab';
@@ -70,7 +71,11 @@
 .header__content_buttons a {
     font-size: 1rem;
     text-decoration: none;
-    color: #000;
+    color: #243352;
+}
+
+.header__content_buttons a:hover {
+    color: #60a5fa;
 }
 
 .header__content_buttons button:last-child {

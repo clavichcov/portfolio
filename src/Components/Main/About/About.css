@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     padding: clamp(1rem, 10vw, 5rem);
-    background-color: #c9e2f9;
+    background: #111827;
 }
 .about__content_title {
     margin: 0;

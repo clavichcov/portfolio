@@ -1,9 +1,11 @@
 import { useState, useEffect } from 'react';
+import { useLanguage } from '../Contexts/LanguageContext';
 import './Header.css';
 
 export function Header() {
     const [openMenu, setOpenMenu] = useState(false);
     const [openLanguage, setOpenLanguage] = useState(false);
+    const { language, setLanguage, t } = useLanguage();
 
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
@@ -12,7 +14,8 @@ export function Header() {
         e.stopPropagation();
         setOpenLanguage(!openLanguage);
     }
-    const selectLanguage = () => {
+    const selectLanguage = (lang) => {
+        setLanguage(lang);
         setOpenLanguage(false);
         setOpenMenu(false);
     }
@@ -39,21 +42,21 @@ export function Header() {
                     <span></span>
                 </button>
                 <div className={`header__content_buttons ${openMenu ? 'show' : ''}`}>
-                    <a href='#home'>Inicio</a>
-                    <a href='#services'>Servicios</a>
-                    <a href='#skills'>Habilidades</a>
-                    <a href='#about'>Sobre mí</a>
-                    <a href='#contact'>Contacto</a>
+                    <a href='#home'>{t('nav.home')}</a>
+                    <a href='#services'>{t('nav.services')}</a>
+                    <a href='#skills'>{t('nav.skills')}</a>
+                    <a href='#about'>{t('nav.about')}</a>
+                    <a href='#contact'>{t('nav.contact')}</a>
                     <div className='language__content'>
                         <button 
                             className='language__content_button'
                             onClick={toggleLanguage}>
-                            Idioma
+                            {language === 'es' ? '🇪🇸 Español' : language === 'en' ? '🇬🇧 English' : '🇷🇺 Русский'}
                         </button>
                         <div className={`language__submenu ${openLanguage ? 'show' : ''}`}>
                             <button onClick={() => selectLanguage('es')}>🇪🇸 Español</button>
-                            <button onClick={() => selectLanguage('en')}>🇬🇧 Inglés</button>
-                            <button onClick={() => selectLanguage('ru')}>🇷🇺 Ruso</button>
+                            <button onClick={() => selectLanguage('en')}>🇬🇧 English</button>
+                            <button onClick={() => selectLanguage('ru')}>🇷🇺 Русский</button>
                         </div>
                     </div>
                     

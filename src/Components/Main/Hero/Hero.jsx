@@ -1,23 +1,25 @@
 import './Hero.css';
 import { useEffect, useState, useRef } from 'react';
 import { IMAGES } from '../../../Utils/Constants.js'
+import { useLanguage } from '../../Contexts/LanguageContext.jsx';
 
 export function Hero() {
+    const { t } = useLanguage();
     const [currentSlide, setCurrentSlide] = useState(0);
     const slidesRef = useRef(null);
     const [isTransitioning, setIsTransitioning] = useState(false);
     const originalSlides = [
         {
             image: IMAGES.electric,
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quisquam, voluptatum ullam fuga rerum vero praesentium labore cum ab magnam voluptates ad quae hic. Eligendi explicabo et ducimus possimus libero.'        
+            description: t('slider.electric')
         },
         {
             image: IMAGES.ti,
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quisquam, voluptatum ullam fuga rerum vero praesentium labore cum ab magnam voluptates ad quae hic. Eligendi explicabo et ducimus possimus libero.'        
+            description: t('slider.it')        
         },
         {
             image: IMAGES.web,
-            description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non quisquam, voluptatum ullam fuga rerum vero praesentium labore cum ab magnam voluptates ad quae hic. Eligendi explicabo et ducimus possimus libero.'        
+            description: t('slider.web')
         }
     ];
     const slides = [
@@ -111,14 +113,13 @@ export function Hero() {
             <div className='hero__content'>
                 <div className='hero__content_description'>
                     <h1 className='hero__description_title'>
-                        Soluciones técnicas integrales
+                        {t('hero.title')}
                     </h1>
                     <p className='hero__description_text'>
-                        Técnico Electricista | Especialista TI | Desarrollador Full Stack
+                        {t('hero.subtitle')}
                     </p>
                     <p className='hero__description_text'>
-                        De la electricidad industrial al código: soluciones integrales 
-                        para tu hogar, empresa o proyecto digital
+                        {t('hero.description')}
                     </p>
                 </div>
                 
