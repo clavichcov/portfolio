@@ -36,6 +36,12 @@ export function Footer() {
                         <img className='footer__social_icon' src={IMAGES.whatsapp} alt="WhatsApp" />
                     </a>
                 </div>
+                
+            </div>
+            <div className='footer__copyright'>
+                <p class="footer__copyright_text">
+                    &copy; 2026 Alexander Artemiev
+                </p>
             </div>
         </footer>
     )

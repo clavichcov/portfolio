@@ -1,11 +1,15 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background: #dfe4f0;
+    color: #243352;
+    padding: clamp(1rem, 10vw, 5rem);
+}
 .footer__content {
     display: flex;
     flex-direction: row;
-    padding: clamp(1rem, 10vw, 5rem);
     justify-content: space-between;
     gap: clamp(1rem, 3vw, 2rem);
-    background: #dfe4f0;
-    color: #243352;
 }
 .footer__content_contact {
 
@@ -21,6 +25,12 @@
     align-self: center;
     grid-template-columns: repeat(2, minmax(20px, 1fr));
     gap: clamp(1rem, 5vw, 2rem);
+}
+.footer__copyright{
+    align-self: center;
+}
+.footer__copyright_text{
+    margin: clamp(1rem, 5vw, 1.5rem) 0 0 0;
 }
 .footer__social_link{
     width: clamp(30px, 5vw, 50px);

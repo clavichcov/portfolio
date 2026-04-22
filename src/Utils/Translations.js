@@ -6,15 +6,14 @@ export const translations = {
         'nav.skills': 'Habilidades',
         'nav.about':'Sobre mí',
         'nav.contact': 'Contacto',
-        'nav.language': 'Idioma',
-
+        
         //Hero
         'hero.title': 'Soluciones técnicas integrales',
-        'hero.subtitle': 'Técnico Electricista | Especialista TI | Desarrollador Full Stack',
-        'hero.description': 'De la electricidad industrial al código: Soluciones integrales para tu hogar, empresa o proyecto digital',
+        'hero.subtitle': 'Técnico Electricista | Especialista en TI | Desarrollador Full Stack',
+        'hero.description': 'Desde la electricidad industrial al código: Ofreciendo soluciones integrales para tu hogar, empresa o proyecto digital',
         //Hero Slider
-        'slider.electric':'Instalaciones eléctricas residenciales, comerciales e industriales. Tableros, cableado, mantenimiento y más.',
-        'slider.it':'Soporte técnico, mantenimiento de equipos, redes, periféricos y soluciones informáticas.',
+        'slider.electric':'Instalaciones eléctricas en entornos residenciales, comerciales e industriales. Incluye tableros, cableado, mantenimiento preventivo y correctivo, entre otros.',
+        'slider.it':'Soporte técnico en TI ofreciendo mantenimientos preventivos y correctivos de equipos informáticos, redes, periféricos y soluciones informáticas.',
         'slider.web':'Desarrollo de aplicaciones web modernas con React, Node.js y MongoDB.',
 
         //Services
@@ -22,6 +21,12 @@ export const translations = {
         'services.electric' : 'Servicios eléctricos',
         'services.it': 'Servicios TI',
         'services.web': 'Servicios Desarrollo Web',
+
+        //Skills
+        'skills.title': 'Habilidades',
+
+        //Experience
+        'experience.title': 'Experiencia',
         
         // About
         'about.title': 'Sobre mí',
@@ -43,28 +48,33 @@ export const translations = {
         'nav.skills': 'Skills',
         'nav.about':'About me',
         'nav.contact': 'Contact',
-        'nav.language': 'Language',
-
+        
         //Hero
-        'hero.title': 'Integrated Technical Solutions',
+        'hero.title': 'Comprehensive Technical Solutions',
         'hero.subtitle': 'Electrician Technician | IT Specialist | Full Stack Developer',
-        'hero.description': 'From industrial electricity to code: comprehensive solutions for your home, business or digital project',
+        'hero.description': 'From industrial electricity to code: Delivering integrated solutions for your home, business, or digital project',
         //Hero Slider
-        'slider.electric':'Residential, commercial and industrial electrical installations. Panels, wiring, maintenance and more.',
-        'slider.it':'Technical support, equipment maintenance, networks, peripherals and IT solutions.',
-        'slider.web':'Modern web application development with React, Node.js and MongoDB.',
+        'slider.electric':'Electrical installations in residential, commercial, and industrial environments. Includes panels, wiring, preventive and corrective maintenance, and more.',
+        'slider.it':'IT technical support offering preventive and corrective maintenance for computer equipment, networks, peripherals, and IT solutions.',
+        'slider.web':'Modern web application development with React, Node.js, and MongoDB.',
 
         //Services
         'services.title': 'Services',
         'services.electric' : 'Electrical Services',
         'services.it': 'IT Services',
         'services.web': 'Web Development Services',
+
+        //Skills
+        'skills.title': 'Skills',
+
+        //Experience
+        'experience.title': 'Experience',
         
         // About
         'about.title': 'About Me',
-        'about.line1': 'I am Alexander Medina Artemiev, a professional with over 9 years of experience combining the industrial and technological world.',
-        'about.line2': 'My work unites three areas: electricity (residential, commercial and industrial), IT support (equipment maintenance, networks and peripherals) and full stack web development with React, Node.js and MongoDB.',
-        'about.line3': 'I enjoy solving complex problems and offering practical solutions, whether installing an electrical panel, repairing a printer or developing a web application.',
+        'about.line1': 'I am Alexander Medina Artemiev, a professional with over 9 years of experience bridging the industrial and technological worlds.',
+        'about.line2': 'My work spans three areas: electricity (residential, commercial, and industrial), IT support (equipment maintenance, networks, and peripherals), and full-stack web development with React, Node.js, and MongoDB.',
+        'about.line3': 'I enjoy solving complex problems and delivering practical solutions—whether installing an electrical panel, repairing a printer, or developing a web application.',
         
         // Footer
         'footer.contact': 'Contact:',
@@ -79,15 +89,14 @@ export const translations = {
         'nav.skills': 'Навыки',
         'nav.about':'Обо мне',
         'nav.contact': 'Контакты',
-        'nav.language': 'Languaje',
-
+        
         //Hero
         'hero.title': 'Комплексные технические решения',
         'hero.subtitle': 'Электрик | IT-специалист | Full Stack разработчик',
         'hero.description': 'От промышленной электрики до кода: комплексные решения для вашего дома, бизнеса или цифрового проекта',
         //Hero Slider
-        'slider.electric':'Бытовые, коммерческие и промышленные электромонтажные работы. Щиты, проводка, обслуживание и многое другое.',
-        'slider.it':'Техническая поддержка, обслуживание оборудования, сети, периферия и IT-решения.',
+        'slider.electric':'Электромонтажные работы в жилых, коммерческих и промышленных помещениях. Включает установку щитов, проводку, профилактическое и аварийное обслуживание.',
+        'slider.it':'Техническая поддержка и IT-обслуживание: профилактика и ремонт компьютерного оборудования, сетей, периферии и программных решений.',
         'slider.web':'Разработка современных веб-приложений с использованием React, Node.js и MongoDB.',
 
         //Services
@@ -95,12 +104,18 @@ export const translations = {
         'services.electric' : 'Электромонтажные работы',
         'services.it': 'IT-услуги',
         'services.web': 'Веб-разработка',
+
+        //Skills
+        'skills.title': 'Навыки',
+
+        //Experience
+        'experience.title': 'Опыт',
         
         // About
         'about.title': 'Обо мне',
-        'about.line1': 'Я Александр Медина Артемьев, профессионал с более чем 9-летним опытом работы на стыке промышленности и технологий.',
-        'about.line2': 'Моя работа объединяет три области: электрику (бытовую, коммерческую и промышленную), IT-поддержку (обслуживание оборудования, сети и периферия) и веб-разработку на React, Node.js и MongoDB.',
-        'about.line3': 'Мне нравится решать сложные проблемы и предлагать практические решения: от установки электрощита до ремонта принтера или разработки веб-приложения.',
+        'about.line1': 'Меня зовут Александр Медина Артемьев, я специалист с более чем 9-летним опытом на стыке промышленности и технологий.',
+        'about.line2': 'Моя работа объединяет три направления: электрику (жилые, коммерческие и промышленные объекты), IT-поддержку (обслуживание оборудования, сетей и периферии) и веб-разработку на React, Node.js и MongoDB.',
+        'about.line3': 'Мне нравится решать сложные задачи и предлагать практичные решения: будь то установка электрощита, ремонт принтера или создание веб-приложения.',
         
         // Footer
         'footer.contact': 'Контакты:',

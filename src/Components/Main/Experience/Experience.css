@@ -2,5 +2,11 @@
     display: flex;
     flex-direction: column;
     padding: clamp(1rem, 10vw, 5rem);
-    background-color: #fff;
+    background: #1e293b;
+}
+.experience__content_title{
+    margin: 0;
+    font-family: 'Roboto slab', sans-serif;
+    font-weight: 900;
+    font-size: clamp(1.25rem, 5vw, 3.13rem);
 }
