@@ -24,6 +24,54 @@ export const translations = {
 
         //Skills
         'skills.title': 'Habilidades',
+        'skill1': 'Frontend',
+        'skill1.chip1': 'HTML5',
+        'skill1.chip2': 'CSS3',
+        'skill1.chip3': 'JavaScript',
+        'skill1.chip4': 'React',
+        'skill1.chip5': 'Vite',
+        'skill1.chip6': 'Webpack',
+        'skill1.chip7': 'BEM',
+        
+        'skill2': 'Backend',
+        'skill2.chip1': 'Node.js',
+        'skill2.chip2': 'Express.js',
+        'skill2.chip3': 'API REST',
+        
+        'skill3': 'Base de datos',
+        'skill3.chip1': 'MongoDB',
+        'skill3.chip2': 'Mongoose',
+        'skill3.chip3': 'MongoDB Atlas',
+        
+        'skill4': 'Soporte TI',
+        'skill4.chip1': 'Mantenimiento PCs',
+        'skill4.chip2': 'Impresoras',
+        'skill4.chip3': 'Mac',
+        'skill4.chip4': 'POS',
+        'skill4.chip5': 'Racks',
+        'skill4.chip6': 'UPS',
+        
+        'skill5': 'Electricidad industrial',
+        'skill5.chip1': 'Instalaciones',
+        'skill5.chip2': 'Motores',
+        'skill5.chip3': 'Generadores',
+        'skill5.chip4': 'Tableros',
+        'skill5.chip5': 'Variadores',
+        'skill5.chip6': 'Planos',
+        
+        'skill6': 'Herramientas',
+        'skill6.chip1': 'Git',
+        'skill6.chip2': 'GitHub',
+        'skill6.chip3': 'VS Code',
+        'skill6.chip4': 'Trello',
+        'skill6.chip5': 'NPM',
+        'skill6.chip6': 'Figma',
+        'skill6.chip7': 'Postman',
+        'skill6.chip8': 'MongoDB Compass',
+        
+        'skill7': 'Idiomas',
+        'skill7.chip1': 'Español nativo',
+        'skill7.chip2': 'Inglés técnico A1',
 
         //Experience
         'experience.title': 'Experiencia',
@@ -66,6 +114,54 @@ export const translations = {
 
         //Skills
         'skills.title': 'Skills',
+        'skill1': 'Frontend',
+        'skill1.chip1': 'HTML5',
+        'skill1.chip2': 'CSS3',
+        'skill1.chip3': 'JavaScript',
+        'skill1.chip4': 'React',
+        'skill1.chip5': 'Vite',
+        'skill1.chip6': 'Webpack',
+        'skill1.chip7': 'BEM',
+        
+        'skill2': 'Backend',
+        'skill2.chip1': 'Node.js',
+        'skill2.chip2': 'Express.js',
+        'skill2.chip3': 'API REST',
+        
+        'skill3': 'Database',
+        'skill3.chip1': 'MongoDB',
+        'skill3.chip2': 'Mongoose',
+        'skill3.chip3': 'MongoDB Atlas',
+        
+        'skill4': 'IT Support',
+        'skill4.chip1': 'PC Maintenance',
+        'skill4.chip2': 'Printers',
+        'skill4.chip3': 'Mac',
+        'skill4.chip4': 'POS Systems',
+        'skill4.chip5': 'Racks',
+        'skill4.chip6': 'UPS',
+        
+        'skill5': 'Industrial Electricity',
+        'skill5.chip1': 'Installations',
+        'skill5.chip2': 'Motors',
+        'skill5.chip3': 'Generators',
+        'skill5.chip4': 'Electrical Panels',
+        'skill5.chip5': 'Drives',
+        'skill5.chip6': 'Blueprints',
+        
+        'skill6': 'Tools',
+        'skill6.chip1': 'Git',
+        'skill6.chip2': 'GitHub',
+        'skill6.chip3': 'VS Code',
+        'skill6.chip4': 'Trello',
+        'skill6.chip5': 'NPM',
+        'skill6.chip6': 'Figma',
+        'skill6.chip7': 'Postman',
+        'skill6.chip8': 'MongoDB Compass',
+        
+        'skill7': 'Languages',
+        'skill7.chip1': 'Native Spanish',
+        'skill7.chip2': 'Technical English A1',
 
         //Experience
         'experience.title': 'Experience',
@@ -107,6 +203,55 @@ export const translations = {
 
         //Skills
         'skills.title': 'Навыки',
+        'skill1': 'Frontend',
+        'skill1.chip1': 'HTML5',
+        'skill1.chip2': 'CSS3',
+        'skill1.chip3': 'JavaScript',
+        'skill1.chip4': 'React',
+        'skill1.chip5': 'Vite',
+        'skill1.chip6': 'Webpack',
+        'skill1.chip7': 'BEM',
+        
+        'skill2': 'Backend',
+        'skill2.chip1': 'Node.js',
+        'skill2.chip2': 'Express.js',
+        'skill2.chip3': 'API REST',
+        
+        'skill3': 'База данных',
+        'skill3.chip1': 'MongoDB',
+        'skill3.chip2': 'Mongoose',
+        'skill3.chip3': 'MongoDB Atlas',
+        
+        'skill4': 'IT-поддержка',
+        'skill4.chip1': 'Обслуживание ПК',
+        'skill4.chip2': 'Принтеры',
+        'skill4.chip3': 'Mac',
+        'skill4.chip4': 'POS-системы',
+        'skill4.chip5': 'Стойки (Racks)',
+        'skill4.chip6': 'ИБП (UPS)',
+        
+        'skill5': 'Промышленная электрика',
+        'skill5.chip1': 'Электромонтаж',
+        'skill5.chip2': 'Двигатели',
+        'skill5.chip3': 'Генераторы',
+        'skill5.chip4': 'Электрощиты',
+        'skill5.chip5': 'Преобразователи',
+        'skill5.chip6': 'Чертежи',
+        
+        'skill6': 'Инструменты',
+        'skill6.chip1': 'Git',
+        'skill6.chip2': 'GitHub',
+        'skill6.chip3': 'VS Code',
+        'skill6.chip4': 'Trello',
+        'skill6.chip5': 'NPM',
+        'skill6.chip6': 'Figma',
+        'skill6.chip7': 'Postman',
+        'skill6.chip8': 'MongoDB Compass',
+        
+        'skill7': 'Языки',
+        'skill7.chip1': 'Родной испанский',
+        'skill7.chip2': 'Технический английский A1',
+        
 
         //Experience
         'experience.title': 'Опыт',

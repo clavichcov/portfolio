@@ -10,3 +10,36 @@
     font-weight: 900;
     font-size: clamp(1.25rem, 5vw, 3.13rem);
 }
+.skills__content_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.skills__item_title {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+}
+.skills__item_chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: #111827;
+}
+.skills__chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin: 5px;
+}

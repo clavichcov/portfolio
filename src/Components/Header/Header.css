@@ -1,12 +1,24 @@
-
+.header {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+}
 .header__content {
     display: flex;
+    padding: 1rem;
+    background: #f5f5f5;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
+    max-width: 1440px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    box-sizing: border-box;
 }
 .header__content--logo {
     color: #111827;
@@ -76,6 +88,7 @@
 
 .header__content_buttons a:hover {
     color: #60a5fa;
+    border-bottom: #000000 2px solid;
 }
 
 .header__content_buttons button:last-child {
