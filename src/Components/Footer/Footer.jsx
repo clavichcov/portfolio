@@ -39,7 +39,7 @@ export function Footer() {
                 
             </div>
             <div className='footer__copyright'>
-                <p class="footer__copyright_text">
+                <p className="footer__copyright_text">
                     &copy; 2026 Alexander Artemiev
                 </p>
             </div>

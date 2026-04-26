@@ -10,11 +10,12 @@
     font-family: 'Roboto slab', sans-serif;
     font-weight: 900;
     font-size: clamp(1.25rem, 5vw, 3.13rem);
-    color: white;
+    color: #ffffff;
 }
 
 .experience__timeline {
     display: flex;
+    padding-top: 1rem;
     justify-content: center;
     width: 100%;
     overflow-x: auto;
@@ -31,7 +32,7 @@
     vertical-align: top;
     padding: 1rem 0;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
 }
 
 .experience__point-cell {
@@ -39,7 +40,7 @@
     text-align: center;
     vertical-align: top;
     position: relative;
-    padding: 1rem 0;
+    padding: 0;
 }
 
 .experience__point {
@@ -47,7 +48,7 @@
     height: 32px;
     border-radius: 50%;
     background: #3b82f6;
-    color: white;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     display: inline-flex;
@@ -57,6 +58,7 @@
     z-index: 2;
     position: relative;
     transition: all 0.2s ease;
+    
 }
 
 .experience__point:hover {
@@ -64,10 +66,9 @@
     transform: scale(1.1);
 }
 
-/* Línea vertical: conecta un punto con el siguiente */
 .experience__line {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
     width: 2px;
     height: 100%;
@@ -76,13 +77,10 @@
     z-index: 1;
 }
 
-/* La última fila NO tiene línea hacia abajo */
 .experience__row:last-child .experience__line {
     display: none;
 }
 
-/* Cuando una experiencia está ABIERTA, la línea de esa fila se oculta */
-/* Porque el siguiente punto está más abajo (después del acordeón) */
 .experience__row:has(~ .experience__accordion) .experience__line {
     display: none;
 }
@@ -93,30 +91,33 @@
     color: white;
 }
 
-.experience__title h3 {
+.experience__subtitle {
     margin: 0;
     font-size: 1.2rem;
     color: white;
 }
 
-.experience__title span {
+.experience__text {
     font-size: 0.9rem;
     color: #9ca3af;
 }
+.experience__accordion {
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0;
+}
 
-/* ACORDEÓN */
 .experience__accordion td {
     padding: 0;
 }
 
-/* El contenido del acordeón se alinea correctamente */
 .experience__details {
     padding: 1rem;
     background: #1f2937;
     border-left: 3px solid #3b82f6;
     border-radius: 8px;
     color: #d1d5db;
-    margin-left: 170px; /* 120px (fecha) + 50px (punto) */
     margin-bottom: 1.5rem;
 }
 

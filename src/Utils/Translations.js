@@ -75,6 +75,21 @@ export const translations = {
 
         //Experience
         'experience.title': 'Experiencia',
+        'experience1.title': 'Desarrollador Full Stack',
+        'experience1.text':'TipleTen',
+        'experience1.line1': 'Desarrollo de apps con React, Node.js, MongoDB',
+        'experience1.line2': 'News Explorer: API externa + API propia',
+        'experience1.line3': 'Around the US: red social con autenticación',
+        'experience2.title': 'Electricista 1A',
+        'experience2.text': 'Constructora Ariguani SAS',
+        'experience2.line1': 'Mantenimiento e instalación eléctrica en plantas, peajes, zonas de servicio, generadores',
+        'experience2.line2': 'Instalación de redes, racks y CCTV',
+        'experience2.line3': 'Diseño y dibujo de planos, coordinacion de cronogramas',
+        'experience3.title': 'Coordinador',
+        'experience3.text':'Servicios de electrónica y sistemas almedart SAS',
+        'experience3.line1': 'Dirección de empresa de servicios tecnológicos',
+        'experience3.line2': 'Gestión de clientes y supervisión de personal',
+        'experience3.line3': 'Facturación electrónica DIAN, SiiGO, Alegra',
         
         // About
         'about.title': 'Sobre mí',
@@ -165,6 +180,21 @@ export const translations = {
 
         //Experience
         'experience.title': 'Experience',
+        'experience1.title': 'Full Stack Developer',
+        'experience1.text': 'TripleTen',
+        'experience1.line1': 'Development of applications using React, Node.js, and MongoDB',
+        'experience1.line2': 'News Explorer: Integration of external API with custom backend API',
+        'experience1.line3': 'Around the US: Social network with authentication and CRUD operations',
+        'experience2.title': 'Industrial Electrician Grade 1A',
+        'experience2.text': 'Constructora Ariguani SAS',
+        'experience2.line1': 'Electrical maintenance and installation in industrial plants, toll stations, service areas, and generators',
+        'experience2.line2': 'Installation of network infrastructure, server racks, and CCTV systems',
+        'experience2.line3': 'Blueprint design and drafting, schedule coordination',
+        'experience3.title': 'Coordinator',
+        'experience3.text': 'Servicios de Electrónica y Sistemas Almedart SAS',
+        'experience3.line1': 'Management of a technology services company',
+        'experience3.line2': 'Client relationship management and technical team supervision',
+        'experience3.line3': 'Electronic invoicing (DIAN), SiiGO, Alegra',
         
         // About
         'about.title': 'About Me',
@@ -254,7 +284,22 @@ export const translations = {
         
 
         //Experience
-        'experience.title': 'Опыт',
+        'experience.title': 'Опыт работы',
+        'experience1.title': 'Full Stack разработчик',
+        'experience1.text': 'TripleTen',
+        'experience1.line1': 'Разработка приложений с использованием React, Node.js и MongoDB',
+        'experience1.line2': 'News Explorer: интеграция внешнего API с собственным бэкендом',
+        'experience1.line3': 'Around the US: социальная сеть с аутентификацией и CRUD операциями',
+        'experience2.title': 'Электрик 1А категории (промышленный)',
+        'experience2.text': 'Constructora Ariguani SAS',
+        'experience2.line1': 'Электромонтаж и техническое обслуживание на промышленных объектах, пунктах взимания платы, в сервисных зонах и генераторах',
+        'experience2.line2': 'Монтаж сетевой инфраструктуры, серверных стоек и систем видеонаблюдения (CCTV)',
+        'experience2.line3': 'Проектирование и составление чертежей, координация графиков работ',
+        'experience3.title': 'Координатор',
+        'experience3.text': 'Servicios de Electrónica y Sistemas Almedart SAS',
+        'experience3.line1': 'Управление компанией в сфере технологических услуг',
+        'experience3.line2': 'Взаимодействие с клиентами и контроль работы технического персонала',
+        'experience3.line3': 'Электронное выставление счетов (DIAN), SiiGO, Alegra',
         
         // About
         'about.title': 'Обо мне',
