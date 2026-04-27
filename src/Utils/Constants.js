@@ -6,6 +6,7 @@ import github from '../Images/Icon/github.png'
 import discord from '../Images/Icon/discord.png'
 import whatsapp from '../Images/Icon/whatsapp.png'
 import myphoto from '../Images/foto.jpg'
+import close_icon from '../Images/Icon/close_icon.png'
 
 export const SERVICE_IMAGES = {
     electric:Object.fromEntries(
@@ -31,6 +32,7 @@ export const IMAGES = {
     discord,
     whatsapp,
     myphoto,
+    close_icon,
 }
 
 export const LINKS = {

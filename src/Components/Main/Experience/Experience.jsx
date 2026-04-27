@@ -1,11 +1,14 @@
 import './Experience.css'
 import { useState } from 'react';
 import { useLanguage } from '../../Contexts/LanguageContext.jsx';
-
+import { Popup } from '../Popup/Popup.jsx';
+import { Documents } from '../Popup/Documents/Documents.jsx';
 export function Experience() {
     const { t } = useLanguage();
     const [openIndex, setOpenIndex] = useState(null);
-
+    const [popup, setPopup] = useState(null);
+    const documents = {title: '', children:<Documents onDocuments={handleDocuments}/>}
+    
     const toggleExperience = (index) => {
         if (openIndex === index) {
             setOpenIndex(null);
@@ -13,6 +16,15 @@ export function Experience() {
             setOpenIndex(index);
         }
     };
+    function handleDocuments() {
+
+    }
+    function handleOpenPopup(popup) {
+        setPopup(popup);
+    }
+    function handleClosePopup() {
+    setPopup(null);
+    }
     return(
         <>
             <section className='experience'>
@@ -112,9 +124,19 @@ export function Experience() {
                     </div>
                 </div>
             </section>
-            <section className='dxperience__download'>
-
+            <section className='experience__download'>
+                <button 
+                    className='download__button'
+                    onClick={()=>handleOpenPopup(documents)}
+                >
+                    Hoja de vida, anexos y proyectos
+                </button>
             </section>
+            {popup && (
+                    <Popup onClose={handleClosePopup} >
+                        {popup.children}
+                    </Popup>
+                )}
         </>
         
         

@@ -88,13 +88,13 @@
 .experience__title {
     padding: 1rem 0;
     text-align: left;
-    color: white;
+    color: #ffffff;
 }
 
 .experience__subtitle {
     margin: 0;
     font-size: 1.2rem;
-    color: white;
+    color: #ffffff;
 }
 
 .experience__text {
@@ -119,6 +119,25 @@
     border-radius: 8px;
     color: #d1d5db;
     margin-bottom: 1.5rem;
+}
+
+.experience__download {
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background: #1e293b;
+}
+.download__button {
+    align-self: center;
+    border-radius: 15px;
+    padding: 1rem;
+    border: none;
+    width: 300px;
+}
+.download__button:hover {
+    background: #6f7277;
+    color: #ffffff;
 }
 
 @media (max-width: 680px) {
