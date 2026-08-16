@@ -1,7 +1,7 @@
 import './Hero.css';
 import { useEffect, useState, useRef } from 'react';
 import { IMAGES } from '../../../Utils/Constants.js'
-import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { useLanguage } from '../../../Contexts/LanguageContext.jsx'
 
 export function Hero() {
     const { t } = useLanguage();

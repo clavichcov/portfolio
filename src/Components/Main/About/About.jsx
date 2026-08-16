@@ -1,5 +1,5 @@
 import { IMAGES } from '../../../Utils/Constants'
-import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { useLanguage } from '../../../Contexts/LanguageContext.jsx';
 import './About.css'
 
 export function About() {

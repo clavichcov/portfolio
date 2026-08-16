@@ -2,7 +2,7 @@ import './Documents.css'
 import { Cv } from './CV/Cv.jsx'
 import { Certificates } from './Certificates/Certificates.jsx';
 import { Projects } from '../Projects/Projects.jsx';
-import { useLanguage } from '../../../Contexts/LanguageContext.jsx'
+import { useLanguage } from '../../../../Contexts/LanguageContext.jsx'
 import { useState } from 'react';
 export function Documents() {
   const [openTabs , setOpenTabs] = useState(1);

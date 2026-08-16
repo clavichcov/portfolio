@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, useEffect } from 'react';
-import { translations } from '../../Utils/Translations.js';
+import { translations } from '../Utils/Translations';
 
-const LanguageContext = createContext(); // ← No se exporta
+const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {

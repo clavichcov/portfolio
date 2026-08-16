@@ -2,7 +2,7 @@ import './Footer.css';
 import { useState } from 'react';
 import { Popup } from '../Main/Popup/Popup.jsx'
 import { Contact } from '../Main/Popup/Contact/Contact.jsx'
-import { useLanguage } from '../Contexts/LanguageContext';
+import { useLanguage } from '../../Contexts/LanguageContext.jsx';
 import {IMAGES, LINKS} from '../../Utils/Constants.js'
 
 export function Footer() {

@@ -1,5 +1,5 @@
 import './Skills.css'
-import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { useLanguage } from '../../../Contexts/LanguageContext.jsx';
 
 export function Skills() {
     const { t } = useLanguage();

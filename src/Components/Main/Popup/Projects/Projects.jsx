@@ -1,6 +1,6 @@
 import './Projects.css'
 import { useState, useEffect } from "react";
-import { useLanguage } from '../../../Contexts/LanguageContext';
+import { useLanguage } from '../../../../Contexts/LanguageContext.jsx';
 import {IMAGES, PROJECTS_IMAGES, LINKS} from '../../../../Utils/Constants.js'
 import {Card} from '../../Card/Card.jsx'
 
@@ -8,7 +8,7 @@ import {Card} from '../../Card/Card.jsx'
 export function Projects() {
     const { t } = useLanguage();
     const [cards, setCards]=useState([]);
-    const [visibleCards, setVisibleCards] = useState(4);
+    const [visibleCards, setVisibleCards] = useState(3);
     
     useEffect(() => {
         const loadAllImages = async () => {

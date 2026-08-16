@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import './Services.css'
 import {Card} from '../Card/Card.jsx'
 import {IMAGES, SERVICE_IMAGES, LINKS} from '../../../Utils/Constants.js'
-import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { useLanguage } from '../../../Contexts/LanguageContext.jsx';
 
 
 export function Services() {

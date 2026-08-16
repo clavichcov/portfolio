@@ -1,12 +1,17 @@
 import { useState, useEffect } from 'react';
-import { useLanguage } from '../Contexts/LanguageContext';
+import { Popup } from '../Main/Popup/Popup.jsx'
+import { useNavigate, useLocation} from "react-router-dom";
+import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import UserContext from '../../Contexts/UserContext.jsx';
 import './Header.css';
 
-export function Header() {
+export function Header({isLoggedIn, onLogout, isName, currentPath}) {
+    const navigate = useNavigate();
+    const location = useLocation();
     const [openMenu, setOpenMenu] = useState(false);
     const [openLanguage, setOpenLanguage] = useState(false);
     const { language, setLanguage, t } = useLanguage();
-
+    const [popup, setPopup] = useState(null);
     const toggleMenu = () => {
         setOpenMenu(!openMenu);
     };
@@ -18,6 +23,17 @@ export function Header() {
         setLanguage(lang);
         setOpenLanguage(false);
         setOpenMenu(false);
+    }
+    const handleOpenLogin = () => {
+        navigate('/signin');
+        
+    }
+    const handleOpenRegister = () => {
+        navigate('/signup');
+        
+    }
+    function handleClosePopup() {
+    setPopup(null);
     }
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -47,6 +63,26 @@ export function Header() {
                     <a href='#skills'>{t('nav.skills')}</a>
                     <a href='#about'>{t('nav.about')}</a>
                     <a href='#contact'>{t('nav.contact')}</a>
+                    <div className='header__command_buttons'>
+                        {isLoggedIn ? (
+                            <button className='button__logout'
+                                onClick={onLogout}
+                            >chupelo</button>
+                        ):(
+                            <>
+                                <button className='button__login'
+                                onClick={handleOpenLogin}
+                            >
+                                {t('nav.login')}
+                            </button>
+                            <button className='button__register'
+                                onClick={handleOpenRegister}
+                            >
+                                {t('nav.register')}
+                            </button>
+                            </>
+                        )}
+                    </div>
                     <div className='language__content'>
                         <button 
                             className='language__content_button'
@@ -62,6 +98,11 @@ export function Header() {
                     
                 </div>
             </div>
+            {popup && (
+                <Popup onClose={handleClosePopup} popupType="command" >
+                    {popup.children}
+                </Popup>
+            )}
         </header>
     )
 

@@ -1,6 +1,6 @@
 import './Experience.css';
 import { useState } from 'react';
-import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { useLanguage } from '../../../Contexts/LanguageContext.jsx';
 import { Popup } from '../Popup/Popup.jsx';
 import { Documents } from '../Popup/Documents/Documents.jsx';
 export function Experience() {

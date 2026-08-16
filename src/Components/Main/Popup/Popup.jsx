@@ -17,16 +17,13 @@ export function Popup (props) {
             return "popup__content_documents"
         } else if (type === "contact") {
             return "popup__content_contact"
+        } else if (type === "command" || type === "register") {
+            return "popup__content_command"
+        } else {
+            return "popup__content_other"
         }
     }
-    function handleCloseButtonType(type) {
-        if (type === "documents"){
-            return "popup__close_button"
-        } else if (type === "contact") {
-            return "popup__close_button"
-        }
-    }
-
+    
     const handleEscKey = (e) => {
         if (e.key === 'Escape') {
             onClose();
@@ -51,7 +48,7 @@ export function Popup (props) {
                 <button
                     style={{backgroundImage: `url(${IMAGES.close_icon})`}}
                     aria-label="Close modal"
-                    className={handleCloseButtonType(popupType)}
+                    className="popup__close_button"
                     type="button"
                     onClick={onClose}
                 />

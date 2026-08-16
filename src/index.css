@@ -1,7 +1,13 @@
 
 @import './Vendor/normalize.css';
 @import './Vendor/fonts.css';
-.html, body {
+
+:root {
+    --popup-doc-width:clamp(300px, calc(300px + (1270 - 300) * (100vw - 340px) / (1440 - 340)), 1270px);
+    --popup-width:clamp(300px, calc(300px + (1270 - 300) * (100vw - 340px) / (1440 - 340)), 550px);
+}
+
+html, body {
     background-color: #0a0f1c;
     color: #e2e8f0;
     overflow-x: hidden;
