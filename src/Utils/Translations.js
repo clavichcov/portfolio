@@ -8,6 +8,7 @@ export const translations = {
         'nav.contact': 'Contacto',
         'nav.login' : 'Inicia sesión',
         'nav.register':'Registrarse',
+        'nav.admin': 'Panel',
         
         //Hero
         'hero.title': 'Soluciones técnicas integrales',
@@ -165,9 +166,10 @@ export const translations = {
         'login.email-placeholder': 'Ej: tu@email.com',
         'login.password': 'Contraseña',
         'login.password-placeholder': 'Tu contraseña',
-        'login.select-line0': 'Administrador',
-        'login.select-line1': 'Usuario',
+        'login.select-line0': 'Usuario',
+        'login.select-line1': 'Administrador',
         'login.button': 'Iniciar sesión',
+        'login-sending': 'Iniciando sesión...',
         
         // Login Errors
         'login.error-required': 'Este campo es obligatorio',
@@ -188,8 +190,8 @@ export const translations = {
         'register.email-placeholder': 'Ej: tu@email.com',
         'register.password': 'Contraseña:',
         'register.password-placeholder': 'Crea una contraseña',
-        'register.select-line0': 'Administrador',
-        'register.select-line1': 'Usuario',
+        'register.select-line0': 'Usuario',
+        'register.select-line1': 'Administrador',
         'register.button': 'Registrarse',
         'register.success': 'Registro exitoso. Por favor inicia sesión',
         
@@ -214,6 +216,7 @@ export const translations = {
         'nav.contact': 'Contact',
         'nav.login': 'Login',
         'nav.register': 'Register',
+        'nav.admin': 'Panel',
         
         //Hero
         'hero.title': 'Comprehensive Technical Solutions',
@@ -371,9 +374,10 @@ export const translations = {
         'login.email-placeholder': 'E.g., you@email.com',
         'login.password': 'Password',
         'login.password-placeholder': 'Your password',
-        'login.select-line0': 'Administrator',
-        'login.select-line1': 'User',
+        'login.select-line0': 'User',
+        'login.select-line1': 'Administrator',
         'login.button': 'Login',
+        'login-sending': 'Logging in...',
         
         // Login Errors
         'login.error-required': 'This field is required',
@@ -394,8 +398,8 @@ export const translations = {
         'register.email-placeholder': 'E.g., you@email.com',
         'register.password': 'Password:',
         'register.password-placeholder': 'Create a password',
-        'register.select-line0': 'Administrator',
-        'register.select-line1': 'User',
+        'register.select-line0': 'User',
+        'register.select-line1': 'Administrator',
         'register.button': 'Register',
         'register.success': 'Registration successful. Please log in',
         
@@ -420,6 +424,7 @@ export const translations = {
         'nav.contact': 'Контакты',
         'nav.login': 'Войти',
         'nav.register': 'Регистрация',
+        'nav.admin': 'Панель',
         
         //Hero
         'hero.title': 'Комплексные технические решения',
@@ -577,9 +582,10 @@ export const translations = {
         'login.email-placeholder': 'Например: vy@email.com',
         'login.password': 'Пароль',
         'login.password-placeholder': 'Ваш пароль',
-        'login.select-line0': 'Администратор',
-        'login.select-line1': 'Пользователь',
+        'login.select-line0': 'Пользователь',
+        'login.select-line1': 'Администратор',
         'login.button': 'Войти',
+        'login-sending': 'Вход в систему...',
         
         // Login Errors
         'login.error-required': 'Это поле обязательно для заполнения',
@@ -600,8 +606,8 @@ export const translations = {
         'register.email-placeholder': 'Например: vy@email.com',
         'register.password': 'Пароль:',
         'register.password-placeholder': 'Создайте пароль',
-        'register.select-line0': 'Администратор',
-        'register.select-line1': 'Пользователь',
+        'register.select-line0': 'Пользователь',
+        'register.select-line1': 'Администратор',
         'register.button': 'Зарегистрироваться',
         'register.success': 'Регистрация успешна. Пожалуйста, войдите',
         

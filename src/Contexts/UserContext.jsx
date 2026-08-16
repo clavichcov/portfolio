@@ -18,6 +18,7 @@ export function UserProvider({ children }) {
     }, []);
 
     const handleLogin = (email, password, role) => {
+        
         // Simulación: cualquier email/password funciona
         const userData = {
             email,
@@ -26,6 +27,7 @@ export function UserProvider({ children }) {
             id: Date.now().toString()
         };
         setUser(userData);
+        setIsLoggedIn(true);
         localStorage.setItem("user", JSON.stringify(userData));
         return true;
     };
@@ -33,8 +35,8 @@ export function UserProvider({ children }) {
     const handleRegister = (email, password, role) => {
         const userData = {
             email,
-            name: name,
-            role: role || "user",
+            name: email.split('@')[0],
+            role: role,
             id: Date.now().toString()
         };
         setUser(userData);

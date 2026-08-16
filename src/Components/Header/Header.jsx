@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import { Popup } from '../Main/Popup/Popup.jsx'
 import { useNavigate, useLocation} from "react-router-dom";
 import { useLanguage } from '../../Contexts/LanguageContext.jsx';
+import { IMAGES } from '../../Utils/Constants.js';
 import UserContext from '../../Contexts/UserContext.jsx';
 import './Header.css';
 
-export function Header({isLoggedIn, onLogout, isName, currentPath}) {
+export function Header({onLogout, isName, currentPath}) {
     const navigate = useNavigate();
     const location = useLocation();
+    const { isLoggedIn, user } = useContext(UserContext);
     const [openMenu, setOpenMenu] = useState(false);
     const [openLanguage, setOpenLanguage] = useState(false);
     const { language, setLanguage, t } = useLanguage();
@@ -34,6 +36,9 @@ export function Header({isLoggedIn, onLogout, isName, currentPath}) {
     }
     function handleClosePopup() {
     setPopup(null);
+    }
+    function handleOpenAdmin() {
+        /*navigate('/admin');*/
     }
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -65,9 +70,26 @@ export function Header({isLoggedIn, onLogout, isName, currentPath}) {
                     <a href='#contact'>{t('nav.contact')}</a>
                     <div className='header__command_buttons'>
                         {isLoggedIn ? (
-                            <button className='button__logout'
+                            <>
+                                <button className='button__logout'
                                 onClick={onLogout}
-                            >chupelo</button>
+                            >
+                                {user.name}
+                                <img 
+                                            src={IMAGES.logout_black} 
+                                            alt="Icono de cerrar sesión" 
+                                            className="header__logout--icon"
+                                        />
+                            </button>
+                            {user.role === 'admin' && (
+                                <button className='button__admin'
+                                    onClick={handleOpenAdmin}
+                                >
+                                    {t('nav.admin')}
+                                </button>
+                            )}
+                            </>
+                            
                         ):(
                             <>
                                 <button className='button__login'

@@ -8,7 +8,7 @@ export function Login() {
     const { t } = useLanguage();
     const navigate = useNavigate();
     const { handleLogin } = useContext(UserContext);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [role, setRole] = useState("user");
@@ -141,7 +141,7 @@ export function Login() {
                         className="login__submit" 
                         type="submit"
                         disabled={!isFormValid}>
-                        {isLoading ? t('form.button-sending') : t('login.button')} 
+                        {isLoading ? t('login-sending') : t('login.button')} 
                     </button>
             </div>
 

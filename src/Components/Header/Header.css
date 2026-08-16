@@ -71,8 +71,8 @@
 .header__content_buttons.show {
     display: flex;
 }
-.header__content_buttons button {
-    padding: 1rem;
+.header__content_buttons button{
+    padding: 0;
     width: 100%;
     text-align: left;
     border: none;
@@ -91,9 +91,31 @@
     border-bottom: #000000 2px solid;
 }
 
-.header__content_buttons button:last-child {
+/*.header__content_buttons button:last-child {
     border-bottom: none;
+}*/
+
+.header__command_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    
 }
+
+.button__logout, 
+.button__admin {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+}
+
+.button__logout:hover, 
+.button__admin:hover {
+    border-bottom: #000000 2px solid;
+}
+
+
 
 .language__content {
     position: relative;
@@ -150,7 +172,7 @@
     }
 
     .header__content_buttons button {
-        padding: 0.5rem 1rem;
+        
         width: auto;
         border-bottom: none;
     }

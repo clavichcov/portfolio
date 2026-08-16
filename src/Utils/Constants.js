@@ -8,6 +8,7 @@ import whatsapp from '../Images/Icon/whatsapp.png'
 import myphoto from '../Images/foto.jpg'
 import close_icon from '../Images/Icon/close_icon.png'
 import cardimg from '../Images/web.jpg';
+import logout_black from '../Images/Icon/logout_black.png'
 
 export const SERVICE_IMAGES = {
     electric:Object.fromEntries(
@@ -57,7 +58,8 @@ export const IMAGES = {
     whatsapp,
     myphoto,
     close_icon,
-    cardimg
+    cardimg,
+    logout_black,
 }
 
 export const LINKS = {
